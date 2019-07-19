@@ -138,3 +138,16 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Basic',
     }
 }
+
+# Email config
+#EMAIL_USE_TLS = True
+#EMAIL_HOST = 'smtp.mailtrap.io'
+#EMAIL_HOST_USER = '2187eee959677d'
+#EMAIL_HOST_PASSWORD = 'd30a13aa1fdc83'
+#EMAIL_PORT = '2525'
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'fotosdemarteapi@gmail.com'
+EMAIL_HOST_PASSWORD = 'fotosdemarte'
+EMAIL_PORT = 587
